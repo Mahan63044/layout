@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#info{
+    background-color: silver;
+    box-shadow: 0px 0px 15px green;
+
+}
+.header{
+    width: 85%;
+    margin: 0;
+}
+
+.header,.mainmenu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:  12px 25px;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+
+}
+.mainmenu li:hover{
+background-color: tomato;
+}
+.mainmenu li {
+    list-style-type: none;
+}
+.mainmenu li a {
+    text-decoration: none;
+}
+#banner{
+    background-color: silver;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+#image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+}
+#image img{
+    animation: logo 2s infinite linear;
+}
+@keyframes logo{
+    from{
+   transform: rotate(360deg);
+   box-shadow: 10px 10px 40px #333;
+   border-radius: 300px;
+    }
+    to{
+transform: rotate(0deg);
+box-shadow: 10px 10px 40px #333;
+   border-radius: 300px
+    }
+}
+.banner img {
+    flex: 100%;
+}
+.banner{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    
+}
+.title:hover{
+    background-color: blue;
+
+}
+.subtitle{
+    text-align: center;
+    text-transform: uppercase;
+    color: gold;
+    font-size: 60px;
+}
+#services{
+    background-color: aliceblue;
+    margin: 10px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 1.0, 0, 0.9);
+    border-radius: 100px;
+    padding: 2%;
+    
+}
+
+.info-menu{
+    flex: 25%;
+}
+
+/***************
+features
+***********/
+#features{
+    background-color: aliceblue;
+}
+.infoblock{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sblock{
+flex: 50%;
+border: 2px solid red;
+}
+.subhead{
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+
+}
+.subhead{
+    flex: 25%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
